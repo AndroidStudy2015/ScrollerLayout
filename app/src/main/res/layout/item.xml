@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.c.horizonalscrollitem.ScrollerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:text="聊天具体的信息哟" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="置顶" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="删除" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="收藏" />
+
+
+</com.github.c.horizonalscrollitem.ScrollerLayout>
